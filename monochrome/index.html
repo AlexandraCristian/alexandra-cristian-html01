@@ -17,6 +17,7 @@
   >
 </head>
 
+
 <body>
   <header class="header">
     <div class="header-top">
@@ -84,12 +85,12 @@
           <form
             action=""
             class="search-bar"
-          ></form>
-          <button type="submit"><i class="fas fa-search"></i></button>
-          <input
-            type="text"
-            placeholder="Search"
           >
+            <button type="submit"><i class="fas fa-search"></i></button>
+            <input
+              type="text"
+              placeholder="Search"
+            >
           </form>
 
         </div>
@@ -97,6 +98,10 @@
 
         <div class="user-controls">
           <i class="far fa-user"></i>
+
+          <a href="">Log out</a>
+          <a href="">User Account</a>
+
         </div>
         <!-- /.user-controls -->
 
@@ -168,7 +173,6 @@
   <main class="content">
     <section class="catalog-preview">
       <header>
-        <hr>
         <h1>New stuff</h1>
       </header>
 
@@ -196,16 +200,19 @@
           </div>
           <!-- /.product-tile-image-container -->
 
-          <header class="product-tile-details">
+          <header class="product-tile-title">
             <h1>
               <a
                 href=""
                 title="Monochrome"
               >Monochrome</a>
             </h1>
-
-            <p>$425</p>
           </header>
+          <!-- /.product-tile-title -->
+
+          <footer class="product-tile-details">
+            <p>$425</p>
+          </footer>
           <!-- /.product-tile-details -->
         </article>
         <!-- /.product-tile -->
@@ -678,7 +685,7 @@
         <a
           href=""
           title="View all"
-          class="view-all-button"
+          class="cta-catalog"
         >view all</a>
       </footer>
       <!-- /.product-tiles-footer -->
@@ -846,7 +853,7 @@
         <a
           href=""
           title="View all"
-          class="view-all-button"
+          class="cta-catalog"
         >view all</a>
       </footer>
       <!-- /.product-tiles-footer -->
@@ -942,7 +949,7 @@
     </nav>
     <!-- /.footer-nav -->
 
-    <section class="footer-newsletter-top">
+    <section class="footer-newsletter-and-social">
       <label for="newsletter">sign up for our newsletter </label>
       <br> <br>
       <input
@@ -957,10 +964,7 @@
         class="submit"
         id="submit"
       >Submit</button>
-    </section>
-    <!-- /.footer-newsletter-top -->
 
-    <section class="footer-social-bottom">
       <ul>
         <li>
           <a
@@ -1007,7 +1011,7 @@
         </li>
       </ul>
     </section>
-    <!-- /.footer-social-bottom -->
+    <!-- /.footer-newsletter-and-social -->
   </footer>
   <!-- /.footer -->
 </body>
