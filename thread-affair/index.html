@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
@@ -11,530 +15,497 @@
 
   <link
     rel="stylesheet"
-    href="css/style.css"
-  >
-
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous"
-  >
+    referrerpolicy="no-referrer"
+  />
 </head>
 
 <body>
-  <header class="header container">
+
+  <header class="header">
     <div class="header-top">
       <section class="header-contact">
-        <ul>
-          <li>
-            <a
-              href="tel:1-877-666-1840"
-              title="Call us"
-            ><i class="icon fas fa-phone-alt"></i>Toll Free 1-877-666-1840</a> |
-          </li>
+        <i class="fas fa-phone-alt"></i>
+        <a
+          href="tel:+1-877-666-1840"
+          title="Call us toll free"
+        >Toll Free 1-877-666-1840</a> |
 
-          <li>
-            <a
-              href="mailto:office@traidaffairs.com"
-              title="Email us"
-            >office@traidaffairs.com</a>
-          </li>
-        </ul>
+        <a
+          href="office@traidaffairs.com"
+          title="Email us"
+        >office@traidaffairs.com</a>
       </section>
-      <!-- /.header-contact -->
+      <!-- ./header-contact -->
+
+      <a
+        href="/"
+        class="header-logo"
+        title="Thread Affair"
+      >
+        <img
+          src="images/logo.jpg"
+          alt="Thread Affair - Logo"
+        >
+      </a>
 
       <section class="header-controls">
         <div class="user-controls">
-          <img
-            src="images/user-avatar.png"
-            alt="User"
+          <a
+            href="/"
+            title="My Account"
           >
-          <i class="icon fas fa-chevron-down"></i>
-
+            <img
+              src="images/user-avatar.png"
+              alt="User avatar"
+            >
+            <i class="fas fa-angle-down"></i>
+          </a>
         </div>
-        <!-- /.user-controls -->
+        <!-- ./user-controls -->
 
         <div class="cart-controls">
-          <span class="cart-qty">3</span>
-          <i class="icon fas fa-shopping-cart"></i>
-          <!-- qty=quantity -->
-        </div>
-        <!-- /.cart-controls -->
-      </section>
-      <!-- /.header-controls -->
-
-      <nav class="header-logo">
-        <a
-          href="/"
-          title="Thread Affair"
-        >
-          <img
-            src="images/logo.jpg"
-            alt="Thread Affair - Logo"
+          <a
+            href="/"
+            title="Cart"
           >
-        </a>
-      </nav>
-      <!-- /.header-logo -->
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-qty">3</span>
+          </a>
+        </div>
+        <!-- ./cart-controls -->
+      </section>
+      <!-- ./header-controls -->
     </div>
-    <!-- /.header-top -->
+    <!-- ./header-top -->
 
     <div class="header-bottom">
       <nav class="nav-primary">
         <ul>
-          <li>
-            <a
-              href=""
-              title="Home"
-            >Home</a>
-          </li>
-
-          <li>
-            <a
-              href=""
-              title="Costume"
-            >Costume</a>
-          </li>
-
           <li><a
               href=""
-              title="Camasi"
-            >Camasi</a>
-          </li>
-
-          <li>
-            <a
+              title="Home"
+            >Home</a></li>
+          <li><a
+              href=""
+              title="Costume"
+            >Costume</a></li>
+          <li><a
+              href=""
+              title=""
+            >Camasi</a></li>
+          <li><a
               href=""
               title="Accesorii"
-            >Accesorii</a>
-          </li>
+            >Accesorii</a></li>
+
         </ul>
       </nav>
-      <!-- /.nav-primary -->
+      <!-- ./nav-primary -->
 
       <nav class="nav-secondary">
         <ul>
-          <li>
-            <a
+          <li><a
               href=""
               title="Glamour Suits"
-            >Glamour Suits</a>
-          </li>
-
-          <li>
-            <a
+            >Glamour Suits</a></li>
+          <li><a
               href=""
               title="Wedding Suits"
-            >Wedding Suits</a>
-          </li>
-
-          <li>
-            <a
+            >Wedding Suits</a></li>
+          <li><a
               href=""
               title="Office Suits"
-            >Office Suits</a>
-          </li>
-
-          <li>
-            <a
+            >Office Suits</a></li>
+          <li><a
               href=""
-              title="Customize your Suit"
-            >Customize your Suit</a>
-          </li>
+              title="Customize your Suits"
+            >Customize Your Suits</a></li>
         </ul>
       </nav>
-      <!-- /.nav-secondary -->
+      <!-- ./nav-secondary -->
     </div>
-    <!-- /.header-bottom -->
+    <!-- ./header-bottom -->
   </header>
-  <!-- /.header -->
+  <!-- ./header -->
 
   <main class="content">
     <header class="content-header">
-      <section class="content-banner container">
-        <div class="banner-copy">
-          <h1>Custom Suits</h1>
-          <h2>Get back to work in style</h2>
-
-          <a
-            href=""
-            title="Create your suit"
-          >Create your suit</a>
-        </div>
-        <!-- /.banner-copy -->
-
-        <p class="banner-disclaimer">
-          A Tailored Suit that will fit you perfectly is a dream for everybody.<br>
-          We provide you with the design and you
-          choose if you like it or if you want to change
-          the details with our online configurator.
-        </p>
-      </section>
-      <!-- /.content-banner -->
+      <h1>Custom Suits</h1>
+      <h2>Get back to work in style</h2>
+      <a
+        href=""
+        title="Create your suit"
+      >Create your suit</a>
+      <p>
+        A Tailored Suit that will fit you perfectly is a dream for everybody. <br> We provide you with the design and
+        you choose if you like it or if you want to change the details with our online configurator.
+      </p>
     </header>
-    <!-- /.content-header -->
+    <!-- ./content-header -->
 
-    <main class="content-main container">
+    <main class="content-main">
       <section class="catalog-preview">
         <header>
           <h1>All Time <span>Bestsellers</span></h1>
-
-          <p>Accomplish new achievements with a bold new style from the brilliant collection of men’s designer suits.
-            <br>
-            For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one of
-            the world's oldest fabric mills, Vitale Barberis Canonico.
+          <p>
+            Accomplish new achievements with a bold new style from the brilliant collection of men’s designer suits.
+            <br> For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one
+            of the world's oldest fabric mills, Vitale Barberis Canonico.
           </p>
         </header>
 
         <main class="product-tiles">
           <article class="product-tile">
-            <div class="product-tile-image-container">
-              <a
-                href=""
-                class="product-tile-image"
-                title="Thread Affair Traveller Suit"
-              >
+            <main class="product-tile-image-container">
+              <picture class="product-tile-image">
                 <img
                   src="images/products/product-01a.jpg"
                   alt="Thread Affair Traveller Suit"
                 >
-              </a>
-
-              <a
-                href=""
-                class="product-tile-badge"
-                title="B$"
-              >B$</a>
-            </div>
-            <!-- /.product-tile-image-container -->
+              </picture>
+            </main>
+            <!-- ./product-tile-image-container -->
 
             <header class="product-tile-details">
-              <h1>
+              <h1 class="product-title">
                 <a
                   href=""
                   title="Thread Affair Traveller Suit"
-                >Thread Affair <span>Traveller</span> <span>Suit</span></a>
+                >
+                  <span>Thread Affair</span>
+                  <span>Traveller</span>
+                  Suit
+                </a>
               </h1>
-
-              <h2>London fit-Semi-slim</h2>
+              <h2 class="product-subtitle">
+                <a
+                  href=""
+                  title="Thread Affair Traveller Suit"
+                >London fit-Semi-slim</a>
+              </h2>
 
               <div class="product-tile-pricing">
-                <span>499.00</span>
-                <span>USD <span>399.00</span></span>
+                <div class="product-catalog-price">499</div>
+
+                <div class="product-price">
+                  USD <span>399</span>
+                </div>
               </div>
+              <!-- ./product-tile-pricing -->
             </header>
-            <!-- /.product-tile-details -->
+            <!-- ./product-tile-details -->
 
             <footer class="product-tile-controls">
-              <a
-                href=""
+              <button
+                class="a2c"
                 title="Add to cart"
-                class="cta-a2c"
-              >Add to cart</a>
+              >Add to cart</button>
             </footer>
-            <!-- /.product-tile-controls -->
+            <!-- ./product-tile-controls -->
           </article>
-          <!-- /.product-tile -->
+          <!-- ./product-tile -->
 
           <article class="product-tile">
-            <div class="product-tile-image-container">
-              <a
-                href=""
-                class="product-tile-image"
-                title="Thread Affair Traveller Suit"
-              >
+            <main class="product-tile-image-container">
+              <picture class="product-tile-image">
                 <img
-                  src="images/products/product-02a.jpg"
+                  src="images/products/product-01a.jpg"
                   alt="Thread Affair Traveller Suit"
                 >
-              </a>
-
-              <a
-                href=""
-                class="product-tile-badge"
-                title="B$"
-              >B$</a>
-            </div>
-            <!-- /.product-tile-image-container -->
+              </picture>
+            </main>
+            <!-- ./product-tile-image-container -->
 
             <header class="product-tile-details">
-              <h1>
+              <h1 class="product-title">
                 <a
                   href=""
                   title="Thread Affair Traveller Suit"
-                >Thread Affair <span>Traveller</span> <span>Suit</span></a>
+                >
+                  <span>Thread Affair</span>
+                  <span>Traveller</span>
+                  Suit
+                </a>
               </h1>
-
-              <h2>London fit-Semi-slim</h2>
+              <h2 class="product-subtitle">
+                <a
+                  href=""
+                  title="Thread Affair Traveller Suit"
+                >London fit-Semi-slim</a>
+              </h2>
 
               <div class="product-tile-pricing">
-                <span>499.00</span>
-                <span>USD <span>399.00</span></span>
+                <div class="product-catalog-price">499</div>
+
+                <div class="product-price">
+                  USD <span>399</span>
+                </div>
               </div>
+              <!-- ./product-tile-pricing -->
             </header>
-            <!-- /.product-tile-details -->
+            <!-- ./product-tile-details -->
 
             <footer class="product-tile-controls">
-              <a
-                href=""
+              <button
+                class="a2c"
                 title="Add to cart"
-                class="cta-a2c"
-              >Add to cart</a>
+              >Add to cart</button>
             </footer>
-            <!-- /.product-tile-controls -->
+            <!-- ./product-tile-controls -->
           </article>
-          <!-- /.product-tile -->
+          <!-- ./product-tile -->
 
           <article class="product-tile">
-            <div class="product-tile-image-container">
-              <a
-                href=""
-                class="product-tile-image"
-                title="Thread Affair Traveller Suit"
-              >
+            <main class="product-tile-image-container">
+              <picture class="product-tile-image">
                 <img
-                  src="images/products/product-03a.jpg"
+                  src="images/products/product-01a.jpg"
                   alt="Thread Affair Traveller Suit"
                 >
-              </a>
-
-              <a
-                href=""
-                class="product-tile-badge"
-                title="B$"
-              >B$</a>
-            </div>
-            <!-- /.product-tile-image-container -->
+              </picture>
+            </main>
+            <!-- ./product-tile-image-container -->
 
             <header class="product-tile-details">
-              <h1>
+              <h1 class="product-title">
                 <a
                   href=""
                   title="Thread Affair Traveller Suit"
-                >Thread Affair <span>Traveller</span> <span>Suit</span></a>
+                >
+                  <span>Thread Affair</span>
+                  <span>Traveller</span>
+                  Suit
+                </a>
               </h1>
-
-              <h2>London fit-Semi-slim</h2>
+              <h2 class="product-subtitle">
+                <a
+                  href=""
+                  title="Thread Affair Traveller Suit"
+                >London fit-Semi-slim</a>
+              </h2>
 
               <div class="product-tile-pricing">
-                <span>499.00</span>
-                <span>USD <span>399.00</span></span>
+                <div class="product-catalog-price">499</div>
+
+                <div class="product-price">
+                  USD <span>399</span>
+                </div>
               </div>
+              <!-- ./product-tile-pricing -->
             </header>
-            <!-- /.product-tile-details -->
+            <!-- ./product-tile-details -->
 
             <footer class="product-tile-controls">
-              <a
-                href=""
+              <button
+                class="a2c"
                 title="Add to cart"
-                class="cta-a2c"
-              >Add to cart</a>
+              >Add to cart</button>
             </footer>
-            <!-- /.product-tile-controls -->
+            <!-- ./product-tile-controls -->
           </article>
-          <!-- /.product-tile -->
+          <!-- ./product-tile -->
         </main>
-        <!-- /.product-tiles -->
+        <!-- ./product-tiles -->
 
         <footer>
-          <nav>
-            <a
-              href=""
-              title="See more"
-              class="cta-catalog"
-            >See more</a>
-            <!-- cta=call to action -->
-          </nav>
+          <a
+            href=""
+            title="See more"
+          >See more</a>
         </footer>
       </section>
-      <!-- /.catalog-preview -->
+      <!-- ./catalog-preview -->
 
       <section class="catalog-preview">
         <header>
           <h1>New <span>Collection</span></h1>
-
-          <p>Accomplish new achievements with a bold new style from the brilliant collection of men’s designer suits.
-            <br>
-            For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one of
-            the world's oldest fabric mills, Vitale Barberis Canonico.
+          <p>
+            Accomplish new achievements with a bold new style from the brilliant collection of men’s designer suits.
+            <br> For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one
+            of the world's oldest fabric mills, Vitale Barberis Canonico.
           </p>
         </header>
 
         <main class="product-tiles">
           <article class="product-tile">
-            <div class="product-tile-image-container">
-              <a
-                href=""
-                class="product-tile-image"
-                title="Thread Affair Traveller Suit"
-              >
+            <main class="product-tile-image-container">
+              <picture class="product-tile-image">
                 <img
-                  src="images/products/product-04a.jpg"
+                  src="images/products/product-01a.jpg"
                   alt="Thread Affair Traveller Suit"
                 >
-              </a>
-
-              <a
-                href=""
-                class="product-tile-badge"
-                title="B$"
-              >B$</a>
-            </div>
-            <!-- /.product-tile-image-container -->
+              </picture>
+            </main>
+            <!-- ./product-tile-image-container -->
 
             <header class="product-tile-details">
-              <h1>
+              <h1 class="product-title">
                 <a
                   href=""
                   title="Thread Affair Traveller Suit"
-                >Thread Affair <span>Traveller</span> <span>Suit</span></a>
+                >
+                  <span>Thread Affair</span>
+                  <span>Traveller</span>
+                  Suit
+                </a>
               </h1>
-
-              <h2>London fit-Semi-slim</h2>
+              <h2 class="product-subtitle">
+                <a
+                  href=""
+                  title="Thread Affair Traveller Suit"
+                >London fit-Semi-slim</a>
+              </h2>
 
               <div class="product-tile-pricing">
-                <span>499.00</span>
-                <span>USD <span>399.00</span></span>
+                <div class="product-catalog-price">499</div>
+
+                <div class="product-price">
+                  USD <span>399</span>
+                </div>
               </div>
+              <!-- ./product-tile-pricing -->
             </header>
-            <!-- /.product-tile-details -->
+            <!-- ./product-tile-details -->
 
             <footer class="product-tile-controls">
-              <a
-                href=""
+              <button
+                class="a2c"
                 title="Add to cart"
-                class="cta-a2c"
-              >Add to cart</a>
+              >Add to cart</button>
             </footer>
-            <!-- /.product-tile-controls -->
+            <!-- ./product-tile-controls -->
           </article>
-          <!-- /.product-tile -->
+          <!-- ./product-tile -->
 
           <article class="product-tile">
-            <div class="product-tile-image-container">
-              <a
-                href=""
-                class="product-tile-image"
-                title="Thread Affair Traveller Suit"
-              >
+            <main class="product-tile-image-container">
+              <picture class="product-tile-image">
                 <img
-                  src="images/products/product-05a.jpg"
+                  src="images/products/product-01a.jpg"
                   alt="Thread Affair Traveller Suit"
                 >
-              </a>
-
-              <a
-                href=""
-                class="product-tile-badge"
-                title="B$"
-              >B$</a>
-            </div>
-            <!-- /.product-tile-image-container -->
+              </picture>
+            </main>
+            <!-- ./product-tile-image-container -->
 
             <header class="product-tile-details">
-              <h1>
+              <h1 class="product-title">
                 <a
                   href=""
                   title="Thread Affair Traveller Suit"
-                >Thread Affair <span>Traveller</span> <span>Suit</span></a>
+                >
+                  <span>Thread Affair</span>
+                  <span>Traveller</span>
+                  Suit
+                </a>
               </h1>
-
-              <h2>London fit-Semi-slim</h2>
+              <h2 class="product-subtitle">
+                <a
+                  href=""
+                  title="Thread Affair Traveller Suit"
+                >London fit-Semi-slim</a>
+              </h2>
 
               <div class="product-tile-pricing">
-                <span>499.00</span>
-                <span>USD <span>399.00</span></span>
+                <div class="product-catalog-price">499</div>
+
+                <div class="product-price">
+                  USD <span>399</span>
+                </div>
               </div>
+              <!-- ./product-tile-pricing -->
             </header>
-            <!-- /.product-tile-details -->
+            <!-- ./product-tile-details -->
 
             <footer class="product-tile-controls">
-              <a
-                href=""
+              <button
+                class="a2c"
                 title="Add to cart"
-                class="cta-a2c"
-              >Add to cart</a>
+              >Add to cart</button>
             </footer>
-            <!-- /.product-tile-controls -->
+            <!-- ./product-tile-controls -->
           </article>
-          <!-- /.product-tile -->
+          <!-- ./product-tile -->
 
           <article class="product-tile">
-            <div class="product-tile-image-container">
-              <a
-                href=""
-                class="product-tile-image"
-                title="Thread Affair Traveller Suit"
-              >
+            <main class="product-tile-image-container">
+              <picture class="product-tile-image">
                 <img
-                  src="images/products/product-06a.jpg"
+                  src="images/products/product-01a.jpg"
                   alt="Thread Affair Traveller Suit"
                 >
-              </a>
-
-              <a
-                href=""
-                class="product-tile-badge"
-                title="B$"
-              >B$</a>
-            </div>
-            <!-- /.product-tile-image-container -->
+              </picture>
+            </main>
+            <!-- ./product-tile-image-container -->
 
             <header class="product-tile-details">
-              <h1>
+              <h1 class="product-title">
                 <a
                   href=""
                   title="Thread Affair Traveller Suit"
-                >Thread Affair <span>Traveller</span> <span>Suit</span></a>
+                >
+                  <span>Thread Affair</span>
+                  <span>Traveller</span>
+                  Suit
+                </a>
               </h1>
-
-              <h2>London fit-Semi-slim</h2>
+              <h2 class="product-subtitle">
+                <a
+                  href=""
+                  title="Thread Affair Traveller Suit"
+                >London fit-Semi-slim</a>
+              </h2>
 
               <div class="product-tile-pricing">
-                <span>499.00</span>
-                <span>USD <span>399.00</span></span>
+                <div class="product-catalog-price">499</div>
+
+                <div class="product-price">
+                  USD <span>399</span>
+                </div>
               </div>
+              <!-- ./product-tile-pricing -->
             </header>
-            <!-- /.product-tile-details -->
+            <!-- ./product-tile-details -->
 
             <footer class="product-tile-controls">
-              <a
-                href=""
+              <button
+                class="a2c"
                 title="Add to cart"
-                class="cta-a2c"
-              >Add to cart</a>
+              >Add to cart</button>
             </footer>
-            <!-- /.product-tile-controls -->
+            <!-- ./product-tile-controls -->
           </article>
-          <!-- /.product-tile -->
+          <!-- ./product-tile -->
         </main>
-        <!-- /.product-tiles -->
+        <!-- ./product-tiles -->
 
         <footer>
-          <nav>
-            <a
-              href=""
-              title="See more"
-              class="cta-catalog"
-            >See more</a>
-            <!-- cta=call to action -->
-          </nav>
+          <a
+            href=""
+            title="See more"
+          >See more</a>
         </footer>
       </section>
-      <!-- /.catalog-preview -->
+      <!-- ./catalog-preview -->
 
       <section class="home-cta">
         <a
           href=""
-          title="Want to buy a gift for someone? - Click Here"
-        >
-          <span>Want to buy a gift for someone?</span>
+          title="Want to buy a gift from someone?"
+        ><span>Want to buy <br> a gift from someone?</span>
+
           <span>
-            <span>Press</span> here <span>for</span> free guidance
+            <span>Press</span>
+            here
+            <span>for</span>
+            free guidance
           </span>
         </a>
       </section>
-      <!-- /.home-cta -->
+      <!-- ./home-cta -->
 
       <section class="home-social">
         <header>
@@ -543,64 +514,50 @@
 
         <main>
           <ul>
-            <li>
-              <a
+            <li><a
                 href=""
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                title="Instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                title="Linked-In"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                title="Pinterest"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-pinterest-p"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                title="Twitter"
+                title="twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i class="fab fa-twitter"></i>
-              </a>
-            </li>
+              </a></li>
+            <li><a
+                href=""
+                title="facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-facebook"></i>
+              </a></li>
+            <li><a
+                href=""
+                title="instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-instagram"></i>
+              </a></li>
+            <li><a
+                href=""
+                title="linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a></li>
+            <li><a
+                href=""
+                title="pinterest"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-pinterest"></i>
+              </a></li>
           </ul>
         </main>
       </section>
-      <!-- /.home-social -->
+      <!-- ./home-social -->
 
       <section class="home-store-locator">
         <header>
@@ -608,191 +565,288 @@
 
           <p>
             Accomplish new achievements with a bold new style from the brilliant collection of men’s designer suits.
-            <br>
-            For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one of
-            the world's oldest fabric mills, Vitale Barberis Canonico.
+            <br> For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one
+            of the world's oldest fabric mills, Vitale Barberis Canonico.
           </p>
         </header>
       </section>
-      <!-- /.home-store-locator -->
-
+      <!-- ./home-store-locator -->
       <section class="home-payment">
         <header>
-          <h1>How to <span>Pay</span></h1>
+          <h1>How to <span>pay</span></h1>
         </header>
 
         <main>
           <ul>
             <li>
               <img
-                src="images/payment/visa.jpg"
-                alt=""
-              >
-            </li>
-
-            <li>
-              <img
-                src="images/payment/maestro.jpg"
-                alt=""
-              >
-            </li>
-
-            <li>
-              <img
-                src="images/payment/mastercard.jpg"
-                alt=""
-              >
-            </li>
-
-            <li>
-              <img
-                src="images/payment/visa_electron.jpg"
-                alt=""
-              >
-            </li>
-
-            <li>
-              <img
-                src="images/payment/paypal.jpg"
-                alt=""
-              >
-            </li>
-
-            <li>
-              <img
                 src="images/payment/amazon.jpg"
-                alt=""
+                alt="amazon"
               >
             </li>
-
             <li>
               <img
                 src="images/payment/cirrus.jpg"
-                alt=""
+                alt="cirrus"
+              >
+            </li>
+            <li>
+              <img
+                src="images/payment/maestro.jpg"
+                alt="maestro"
+              >
+            </li>
+            <li>
+              <img
+                src="images/payment/mastercard.jpg"
+                alt="mastercard"
+              >
+            </li>
+            <li>
+              <img
+                src="images/payment/paypal.jpg"
+                alt="paypal"
+              >
+            </li>
+            <li>
+              <img
+                src="images/payment/visa.jpg"
+                alt="visa"
+              >
+            </li>
+            <li>
+              <img
+                src="images/payment/visa_electron.jpg"
+                alt="visa_electron"
               >
             </li>
           </ul>
         </main>
       </section>
-      <!-- /.home-payment -->
+      <!-- ./home-payment -->
     </main>
-    <!-- /.content-main -->
+    <!-- ./content-main -->
   </main>
-  <!-- /.content -->
+  <!-- ./content -->
 
-  <footer class="footer container">
+  <footer class="footer">
     <section class="footer-top">
       <nav class="footer-nav">
         <ul>
-          <li><a href="">INFORMATION</a></li>
-          <li><a href="">Contact us</a></li>
-          <li><a href="">Track my order</a></li>
-          <li><a href="">Shipping</a></li>
-          <li><a href="">Free Returns*</a></li>
-          <li><a href="">My account</a></li>
+          <li>
+            <a
+              href="/"
+              title="Information"
+            > INFORMATION </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Contact us"
+            > Contact us </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Track my order"
+            > Track my order </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Shipping"
+            > Shipping </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Free Returns"
+            > Free Returns* </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="My account"
+            > My account</a>
+          </li>
         </ul>
 
         <ul>
-          <li><a href="">INFORMATION</a></li>
-          <li><a href="">Contact us</a></li>
-          <li><a href="">Track my order</a></li>
-          <li><a href="">Shipping</a></li>
-          <li><a href="">Free Returns*</a></li>
-          <li><a href="">My account</a></li>
+          <li>
+            <a
+              href="/"
+              title="Information"
+            > INFORMATION </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Contact us"
+            > Contact us </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Track my order"
+            > Track my order </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Shipping"
+            > Shipping </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Free Returns"
+            > Free Returns* </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="My account"
+            > My account</a>
+          </li>
         </ul>
 
         <ul>
-          <li><a href="">INFORMATION</a></li>
-          <li><a href="">Contact us</a></li>
-          <li><a href="">Track my order</a></li>
-          <li><a href="">Shipping</a></li>
-          <li><a href="">Free Returns*</a></li>
-          <li><a href="">My account</a></li>
+          <li>
+            <a
+              href="/"
+              title="Information"
+            > INFORMATION </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Contact us"
+            > Contact us </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Track my order"
+            > Track my order </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Shipping"
+            > Shipping </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Free Returns"
+            > Free Returns* </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="My account"
+            > My account</a>
+          </li>
         </ul>
 
         <ul>
-          <li><a href="">INFORMATION</a></li>
-          <li><a href="">Contact us</a></li>
-          <li><a href="">Track my order</a></li>
-          <li><a href="">Shipping</a></li>
-          <li><a href="">Free Returns*</a></li>
-          <li><a href="">My account</a></li>
+          <li>
+            <a
+              href="/"
+              title="Information"
+            > INFORMATION </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Contact us"
+            > Contact us </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Track my order"
+            > Track my order </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Shipping"
+            > Shipping </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="Free Returns"
+            > Free Returns* </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              title="My account"
+            > My account</a>
+          </li>
         </ul>
       </nav>
-      <!-- /.footer-nav -->
+      <!-- ./footer-nav -->
 
       <nav class="footer-support">
         <ul>
-          <li>
-            <a
+          <li><a
               href=""
               title="Support"
-            >
-              <i class="icon fas fa-phone-alt"></i>
-              Support</a>
-          </li>
-
-          <li>
-            <a
+            ><i class="fas fa-phone-alt"></i>Support</a></i></li>
+          <li><a
               href=""
-              title="Support"
-            >
-              <i class="icon fas fa-phone-alt"></i>
-              Support</a>
-          </li>
-
-          <li>
-            <a
+              title="Chat"
+            ><i class="far fa-comments"></i>Chat</a></li>
+          <li><a
               href=""
-              title="Support"
-            >
-              <i class="icon fas fa-phone-alt"></i>
-              Support</a>
-          </li>
+              title="Email"
+            ><i class="fas fa-inbox"></i>Email</a></li>
         </ul>
       </nav>
-      <!-- /.footer-support -->
+      <!-- ./footer-support -->
 
-      <section class="footer-contact">
-        <p>Thread Affair <span>Milano</span></p>
+      <div class="footer-contact">
+        <h2>
+          <span>Thread Affair</span>
+          Milano
+        </h2>
 
         <p>
           Largo Augusto 3, Milano, 20122, Milano, IT <br>
           <a
-            href="tel:1-877-666-1840"
+            href="tel:+0039 02 760 003 66"
             title="Call us"
-          >Tel: 0039 02 760 003 66</a><br>
+          >Tel: 0039 02 760 003 66</a> <br>
 
           <a
-            href="mailto:office@traidaffairs.com"
+            href="mailto:office@thread-affair.com"
             title="Email us"
-          >office@traidaffairs.com</a>
+          >office@thread-affair.com</a>
         </p>
-      </section>
-      <!-- /.footer-contact -->
+      </div>
+      <!-- ./footer-contact -->
     </section>
-    <!-- /.footer-top -->
+    <!-- ./footer-top -->
 
     <section class="footer-bottom">
-      <p>©2020 THREAD AFFAIR. All Rights Reserved.</p>
+      <p>
+        ©️2020 THREAD AFFAIR. All Rights Reserved.
+      </p>
+
       <p>
         Designed by
-        <a
-          href=""
-          title="Go to Pixellab"
-          target="_blank"
-          rel="noopener noreferrer"
+        <img
+          src="images/pixellab_logo.jpg"
+          alt="Pixellab Logo"
         >
-          <img
-            src="images/pixellab_logo.jpg"
-            alt="Pixellab Logo"
-          >
-        </a>
       </p>
     </section>
-    <!-- /.footer-bottom -->
+    <!-- ./footer-bottom -->
   </footer>
-  <!-- /.footer -->
+  <!-- ./footer -->
 </body>
 
 </html>
